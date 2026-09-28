@@ -80,3 +80,4 @@ converted to optimized WebP). **Back up this folder regularly.** Copying it to a
 - Service pages (descriptions, FAQs): `lib/services.ts`
 - All other website texts (NL + EN): `lib/i18n.ts`
 - Colors and fonts: `app/globals.css`
+# oynurbouw
