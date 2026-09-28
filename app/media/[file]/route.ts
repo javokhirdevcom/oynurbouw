@@ -1,7 +1,7 @@
 import { promises as fs, createReadStream } from "node:fs";
 import path from "node:path";
 import { Readable } from "node:stream";
-import { UPLOAD_DIR } from "@/lib/store";
+import { SEED_DIR, UPLOAD_DIR } from "@/lib/store";
 
 const types: Record<string, string> = {
   ".webp": "image/webp",
@@ -20,12 +20,18 @@ export async function GET(req: Request, { params }: { params: Promise<{ file: st
   const { file } = await params;
   // Only simple file names: no path traversal.
   if (!/^[a-zA-Z0-9_-]+\.(webp|jpe?g|png|avif|gif|mp4|m4v|mov|webm)$/.test(file)) return new Response("Not found", { status: 404 });
-  const full = path.join(UPLOAD_DIR, file);
+  let full = path.join(UPLOAD_DIR, file);
   let size: number;
   try {
     size = (await fs.stat(full)).size;
   } catch {
-    return new Response("Not found", { status: 404 });
+    // Fall back to the files shipped with the code (seed/uploads).
+    try {
+      full = path.join(SEED_DIR, "uploads", file);
+      size = (await fs.stat(full)).size;
+    } catch {
+      return new Response("Not found", { status: 404 });
+    }
   }
   const type = types[path.extname(file).toLowerCase()] || "application/octet-stream";
   const headers: Record<string, string> = {

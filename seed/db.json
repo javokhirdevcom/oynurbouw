@@ -1,0 +1,595 @@
+{
+  "version": 1,
+  "settings": {
+    "companyName": "Oynur Bouw B.V.",
+    "tagline": {
+      "nl": "Badkamers, vloeren, tegel- en schilderwerk. Vakkundig, netjes en volgens afspraak.",
+      "en": "Bathrooms, floors, tiling and painting. Skilled, tidy and as agreed."
+    },
+    "phone": "085 333 2537",
+    "whatsapp": "085 333 2537",
+    "email": "info@oynurbouw.nl",
+    "street": "",
+    "postalCode": "",
+    "city": "HAARLEM",
+    "country": "NL",
+    "kvk": "42156292",
+    "btw": "NL869962279B01",
+    "iban": "NL18INGB0118060724",
+    "serviceArea": {
+      "nl": "Haarlem en omgeving",
+      "en": "Haarlem and surroundings"
+    },
+    "openingHours": {
+      "nl": "Ma – Vr: 08:00 – 18:00\nZa: op afspraak",
+      "en": "Mon – Fri: 08:00 – 18:00\nSat: by appointment"
+    },
+    "socials": {
+      "instagram": "https://www.instagram.com/oynurbouw.nl/",
+      "tiktok": "https://www.tiktok.com/@oynurbouw",
+      "facebook": "https://www.facebook.com/oynurbouw.nl",
+      "linkedin": "",
+      "youtube": "",
+      "pinterest": "",
+      "x": "",
+      "google": "",
+      "werkspot": ""
+    },
+    "stats": {
+      "yearsExperience": "",
+      "projectsCompleted": "",
+      "rating": ""
+    },
+    "heroImage": {
+      "id": "897ae9bac783e4deh",
+      "src": "/media/8530b19350eaf7a86a19.webp",
+      "width": 1280,
+      "height": 960,
+      "alt": {
+        "nl": "Badkamer met natuursteen wastafel en verlichte spiegels",
+        "en": "Bathroom with natural stone basin and illuminated mirrors"
+      },
+      "kind": "gallery"
+    },
+    "aboutImage": {
+      "id": "a460f023feddf67dh",
+      "src": "/media/e7bc97e3eab438b705d4.webp",
+      "width": 960,
+      "height": 1280,
+      "alt": {
+        "nl": "Badkamer met vrijstaand ligbad en grijze tegels",
+        "en": "Bathroom with freestanding bath and grey tiles"
+      },
+      "kind": "gallery"
+    },
+    "updatedAt": "2026-09-28T14:09:48.482Z"
+  },
+  "projects": [
+    {
+      "summary": {
+        "nl": "Complete badkamerrenovatie in lichte tinten, met inloopdouche, vrijstaand bad en koperen kranen.",
+        "en": "Complete bathroom renovation in light tones, with walk-in shower, freestanding bath and copper taps."
+      },
+      "description": {
+        "nl": "Deze badkamer is volledig vernieuwd: van leidingwerk en waterdichting tot tegelwerk en montage van het sanitair.\n\nGrootformaat tegels in een warme beige tint, een inloopdouche met koperen regendouche, een vrijstaand bad, dubbel badmeubel met ronde verlichte spiegel en een hangend toilet zorgen voor een rustige, luxe uitstraling.",
+        "en": "This bathroom was completely renewed: from plumbing and waterproofing to tiling and installing the sanitary ware.\n\nLarge-format tiles in a warm beige tone, a walk-in shower with a copper rain shower, a freestanding bath, a double vanity with a round illuminated mirror and a wall-hung toilet create a calm, luxurious look."
+      },
+      "duration": {
+        "nl": "",
+        "en": ""
+      },
+      "seoTitle": {
+        "nl": "",
+        "en": ""
+      },
+      "seoDescription": {
+        "nl": "",
+        "en": ""
+      },
+      "images": [
+        {
+          "id": "a881064da1b27f3a",
+          "src": "/media/fc98d1ffafd294bc9261.webp",
+          "width": 1125,
+          "height": 2000,
+          "alt": {
+            "nl": "Lichte badkamer met vrijstaand bad en ronde spiegel",
+            "en": "Light bathroom with freestanding bath and round mirror"
+          },
+          "kind": "gallery"
+        },
+        {
+          "id": "0ce7eb58a60a4352",
+          "src": "/media/73b3d75300945bc60e67.webp",
+          "width": 1125,
+          "height": 2000,
+          "alt": {
+            "nl": "Dubbel badmeubel met ronde spiegel en koperen kranen",
+            "en": "Double vanity with round mirror and copper taps"
+          },
+          "kind": "gallery"
+        },
+        {
+          "id": "5eaca828ea21ef3d",
+          "src": "/media/dc77ac233aad1b4b6cfe.webp",
+          "width": 1125,
+          "height": 2000,
+          "alt": {
+            "nl": "Inloopdouche met koperen regendouche en hangend toilet",
+            "en": "Walk-in shower with copper rain shower and wall-hung toilet"
+          },
+          "kind": "gallery"
+        },
+        {
+          "id": "86c5f79262a10feb",
+          "src": "/media/db20e81d290e7bd779c7.webp",
+          "width": 1125,
+          "height": 2000,
+          "alt": {
+            "nl": "Waskom op houten badmeubel onder schuin dak",
+            "en": "Vessel basin on wooden vanity under sloping roof"
+          },
+          "kind": "gallery"
+        }
+      ],
+      "coverImageId": "a881064da1b27f3a",
+      "featured": true,
+      "published": false,
+      "order": 0,
+      "location": "",
+      "year": "",
+      "id": "0794a2a914a7bc98",
+      "slug": "badkamer-inloopdouche-koperen-accenten",
+      "title": {
+        "nl": "Badkamer met inloopdouche en koperen accenten",
+        "en": "Bathroom with walk-in shower and copper accents"
+      },
+      "category": "bathroom",
+      "createdAt": "2026-09-27T08:30:03.270020Z",
+      "updatedAt": "2026-09-27T08:49:15.468Z"
+    },
+    {
+      "summary": {
+        "nl": "Een selectie van badkamers en toiletruimtes die wij hebben gerenoveerd: van natuursteen tot marmerlook.",
+        "en": "A selection of bathrooms and toilet rooms we renovated: from natural stone to marble look."
+      },
+      "description": {
+        "nl": "Elke badkamer is anders. Hier ziet u een selectie van ons werk: inloopdouches, vrijstaande baden, verlichte spiegels, hangende toiletten en strak tegelwerk in verschillende stijlen.\n\nWij verzorgen het complete traject, van slopen tot de laatste kitnaad.",
+        "en": "Every bathroom is different. Here is a selection of our work: walk-in showers, freestanding baths, illuminated mirrors, wall-hung toilets and precise tiling in various styles.\n\nWe take care of the entire process, from demolition to the final sealant joint."
+      },
+      "duration": {
+        "nl": "",
+        "en": ""
+      },
+      "seoTitle": {
+        "nl": "",
+        "en": ""
+      },
+      "seoDescription": {
+        "nl": "",
+        "en": ""
+      },
+      "images": [
+        {
+          "id": "897ae9bac783e4de",
+          "src": "/media/8530b19350eaf7a86a19.webp",
+          "width": 1280,
+          "height": 960,
+          "alt": {
+            "nl": "Badkamer met natuursteen wastafel en verlichte spiegels",
+            "en": "Bathroom with natural stone basin and illuminated mirrors"
+          },
+          "kind": "gallery"
+        },
+        {
+          "id": "840c89bfcef19974",
+          "src": "/media/e54f0d42167ba8ec356e.webp",
+          "width": 960,
+          "height": 1280,
+          "alt": {
+            "nl": "Badkamer met inloopdouche, houten badmeubel en grootformaat tegels",
+            "en": "Bathroom with walk-in shower, wooden vanity and large-format tiles"
+          },
+          "kind": "gallery"
+        },
+        {
+          "id": "a460f023feddf67d",
+          "src": "/media/e7bc97e3eab438b705d4.webp",
+          "width": 960,
+          "height": 1280,
+          "alt": {
+            "nl": "Badkamer met vrijstaand ligbad en grijze tegels",
+            "en": "Bathroom with freestanding bath and grey tiles"
+          },
+          "kind": "gallery"
+        },
+        {
+          "id": "77d2fe202f1476c7",
+          "src": "/media/cde65208c2995a3a0eb8.webp",
+          "width": 960,
+          "height": 1280,
+          "alt": {
+            "nl": "Badkamer in marmerlook met whirlpool bad",
+            "en": "Marble-look bathroom with whirlpool bath"
+          },
+          "kind": "gallery"
+        },
+        {
+          "id": "104c4083f60262b2",
+          "src": "/media/74db622829148339361f.webp",
+          "width": 960,
+          "height": 1280,
+          "alt": {
+            "nl": "Toilet en inloopdouche met roze natuursteentegels",
+            "en": "Toilet and walk-in shower with pink stone-look tiles"
+          },
+          "kind": "gallery"
+        },
+        {
+          "id": "29bc7148fe275fd0",
+          "src": "/media/0043105ab69795f47451.webp",
+          "width": 960,
+          "height": 1280,
+          "alt": {
+            "nl": "Toilet met ovale verlichte spiegel en decoratieve wandtegel",
+            "en": "Toilet with oval illuminated mirror and decorative wall tile"
+          },
+          "kind": "gallery"
+        },
+        {
+          "id": "52ca6c77c996d9f2",
+          "src": "/media/8d2582988b5cabd3b151.webp",
+          "width": 960,
+          "height": 1280,
+          "alt": {
+            "nl": "Toiletruimte met hangend toilet en fonteintje",
+            "en": "Toilet room with wall-hung toilet and small basin"
+          },
+          "kind": "gallery"
+        }
+      ],
+      "coverImageId": "897ae9bac783e4de",
+      "featured": true,
+      "published": true,
+      "order": 1,
+      "location": "",
+      "year": "",
+      "id": "6c67c98aa0bf168f",
+      "slug": "luxe-badkamers-en-toiletten",
+      "title": {
+        "nl": "Luxe badkamers en toiletten",
+        "en": "Luxury bathrooms and toilets"
+      },
+      "category": "bathroom",
+      "createdAt": "2026-09-27T08:30:03.270020Z",
+      "updatedAt": "2026-09-27T08:30:03.270020Z"
+    },
+    {
+      "summary": {
+        "nl": "Laminaat in eikenlook gelegd in woonkamer, slaapkamers en zolder, strak afgewerkt met plinten.",
+        "en": "Oak-look laminate laid in the living room, bedrooms and attic, neatly finished with skirting."
+      },
+      "description": {
+        "nl": "In deze woning hebben we in alle ruimtes een nieuwe laminaatvloer gelegd. De ondergrond is eerst vlak gemaakt, daarna is de vloer nauwkeurig gelegd en afgewerkt met strakke plinten.\n\nHet resultaat: een rustige, doorlopende vloer die de hele woning een frisse uitstraling geeft.",
+        "en": "In this home we laid a new laminate floor in every room. The subfloor was levelled first, after which the floor was laid precisely and finished with neat skirting.\n\nThe result: a calm, continuous floor that gives the whole home a fresh look."
+      },
+      "duration": {
+        "nl": "",
+        "en": ""
+      },
+      "seoTitle": {
+        "nl": "",
+        "en": ""
+      },
+      "seoDescription": {
+        "nl": "",
+        "en": ""
+      },
+      "images": [
+        {
+          "id": "30a6d730fc19d94c",
+          "src": "/media/a33e7230176d2f319869.webp",
+          "width": 1125,
+          "height": 2000,
+          "alt": {
+            "nl": "Laminaatvloer in eikenlook in slaapkamer",
+            "en": "Oak-look laminate floor in bedroom"
+          },
+          "kind": "gallery"
+        },
+        {
+          "id": "f91a2a0307c24a8e",
+          "src": "/media/2d20defba87a196a9810.webp",
+          "width": 1125,
+          "height": 2000,
+          "alt": {
+            "nl": "Slaapkamer met nieuwe laminaatvloer en strakke plinten",
+            "en": "Bedroom with new laminate floor and neat skirting"
+          },
+          "kind": "gallery"
+        },
+        {
+          "id": "f68c5681da550b07",
+          "src": "/media/ddfd58c8dd044766805b.webp",
+          "width": 1125,
+          "height": 2000,
+          "alt": {
+            "nl": "Zolderkamer met laminaatvloer en geschilderde wanden",
+            "en": "Attic room with laminate floor and painted walls"
+          },
+          "kind": "gallery"
+        },
+        {
+          "id": "0514fb26aa759203",
+          "src": "/media/1d0e1b62588e3197cc66.webp",
+          "width": 1125,
+          "height": 2000,
+          "alt": {
+            "nl": "Kamer met nieuwe vloer en strak afgewerkte wanden",
+            "en": "Room with new floor and smoothly finished walls"
+          },
+          "kind": "gallery"
+        },
+        {
+          "id": "705ccbf2056a1ad4",
+          "src": "/media/acea6dfd3082f21f1452.webp",
+          "width": 1125,
+          "height": 2000,
+          "alt": {
+            "nl": "Woonkamer tijdens het leggen van de nieuwe vloer",
+            "en": "Living room while laying the new floor"
+          },
+          "kind": "gallery"
+        }
+      ],
+      "coverImageId": "30a6d730fc19d94c",
+      "featured": true,
+      "published": true,
+      "order": 2,
+      "location": "",
+      "year": "",
+      "id": "38d8f45fbdbc2f9b",
+      "slug": "laminaatvloeren-woning",
+      "title": {
+        "nl": "Nieuwe laminaatvloeren door de hele woning",
+        "en": "New laminate floors throughout the home"
+      },
+      "category": "flooring",
+      "createdAt": "2026-09-27T08:30:03.270020Z",
+      "updatedAt": "2026-09-27T08:30:03.270020Z"
+    },
+    {
+      "summary": {
+        "nl": "Strak geschilderde wanden en een donkergrijze accentwand met grafisch lijnenspel.",
+        "en": "Smoothly painted walls and a dark grey accent wall with a graphic line pattern."
+      },
+      "description": {
+        "nl": "Na het stuc- en voorbereidend werk zijn alle wanden strak geschilderd. In de slaapkamer hebben we een donkergrijze accentwand gemaakt met een grafisch lijnenpatroon, als eyecatcher van de ruimte.",
+        "en": "After the plastering and preparation, all walls were painted smoothly. In the bedroom we created a dark grey accent wall with a graphic line pattern as the eye-catcher of the room."
+      },
+      "duration": {
+        "nl": "",
+        "en": ""
+      },
+      "seoTitle": {
+        "nl": "",
+        "en": ""
+      },
+      "seoDescription": {
+        "nl": "",
+        "en": ""
+      },
+      "images": [
+        {
+          "id": "2717c8535cbcc818",
+          "src": "/media/3558234e00ece7cacfe7.webp",
+          "width": 1125,
+          "height": 2000,
+          "alt": {
+            "nl": "Grafische accentwand in donkergrijs met laminaatvloer",
+            "en": "Graphic dark grey accent wall with laminate floor"
+          },
+          "kind": "gallery"
+        },
+        {
+          "id": "f68c5681da550b07",
+          "src": "/media/ddfd58c8dd044766805b.webp",
+          "width": 1125,
+          "height": 2000,
+          "alt": {
+            "nl": "Zolderkamer met laminaatvloer en geschilderde wanden",
+            "en": "Attic room with laminate floor and painted walls"
+          },
+          "kind": "before"
+        },
+        {
+          "id": "0514fb26aa759203",
+          "src": "/media/1d0e1b62588e3197cc66.webp",
+          "width": 1125,
+          "height": 2000,
+          "alt": {
+            "nl": "Kamer met nieuwe vloer en strak afgewerkte wanden",
+            "en": "Room with new floor and smoothly finished walls"
+          },
+          "kind": "after"
+        }
+      ],
+      "coverImageId": "2717c8535cbcc818",
+      "featured": true,
+      "published": true,
+      "order": 3,
+      "location": "",
+      "year": "",
+      "id": "ddce8af18f071bad",
+      "slug": "grafische-accentwand-schilderwerk",
+      "title": {
+        "nl": "Schilderwerk met grafische accentwand",
+        "en": "Painting with a graphic accent wall"
+      },
+      "category": "painting",
+      "createdAt": "2026-09-27T08:30:03.270020Z",
+      "updatedAt": "2026-09-28T14:07:06.087Z"
+    },
+    {
+      "summary": {
+        "nl": "Grootformaat vloertegels in marmerlook, strak gelegd in hal en entree.",
+        "en": "Large-format marble-look floor tiles, precisely laid in the hallway and entrance."
+      },
+      "description": {
+        "nl": "Voor deze hal kozen we grootformaat tegels in marmerlook. Door de grote tegels en smalle voegen oogt de ruimte groter en rustiger.",
+        "en": "For this hallway we chose large-format marble-look tiles. The large tiles and narrow joints make the space feel larger and calmer."
+      },
+      "duration": {
+        "nl": "",
+        "en": ""
+      },
+      "seoTitle": {
+        "nl": "",
+        "en": ""
+      },
+      "seoDescription": {
+        "nl": "",
+        "en": ""
+      },
+      "images": [
+        {
+          "id": "f3687a7c6ff9eb4c",
+          "src": "/media/83f852127def80c607c7.webp",
+          "width": 1320,
+          "height": 1760,
+          "alt": {
+            "nl": "Hal met grootformaat vloertegels in marmerlook",
+            "en": "Hallway with large-format marble-look floor tiles"
+          },
+          "kind": "gallery"
+        }
+      ],
+      "coverImageId": "f3687a7c6ff9eb4c",
+      "featured": false,
+      "published": true,
+      "order": 4,
+      "location": "",
+      "year": "",
+      "id": "0251ea7145a84f11",
+      "slug": "tegelvloer-marmerlook-hal",
+      "title": {
+        "nl": "Tegelvloer in marmerlook in de hal",
+        "en": "Marble-look tiled floor in the hallway"
+      },
+      "category": "tiling",
+      "createdAt": "2026-09-27T08:30:03.270020Z",
+      "updatedAt": "2026-09-27T08:30:03.270020Z"
+    },
+    {
+      "id": "ac0c472b0853f3bb",
+      "slug": "stucwerk-zolderverdieping",
+      "title": {
+        "nl": "Stucwerk zolderverdieping",
+        "en": "Plastering an attic floor"
+      },
+      "summary": {
+        "nl": "Complete zolderverdieping gestuct: schuine wanden, plafonds en dakkapel strak afgewerkt.",
+        "en": "Complete attic floor plastered: sloping walls, ceilings and dormer smoothly finished."
+      },
+      "description": {
+        "nl": "Op deze zolderverdieping hebben we alle wanden, schuine dakvlakken en plafonds glad gestuct. Vooraf is alles zorgvuldig afgedekt en zijn hoeken voorzien van hoekprofielen.\n\nHet resultaat: strakke, egale wanden die direct klaar zijn om te schilderen.",
+        "en": "On this attic floor we plastered all walls, sloping roof sections and ceilings smoothly. Everything was carefully covered first and corners were fitted with corner beads.\n\nThe result: smooth, even walls that are ready to paint right away."
+      },
+      "category": "plastering",
+      "location": "",
+      "year": "",
+      "duration": {
+        "nl": "",
+        "en": ""
+      },
+      "images": [
+        {
+          "id": "1651871adb4cbd06",
+          "src": "/media/stuc-zolder-2.webp",
+          "width": 1500,
+          "height": 2000,
+          "alt": {
+            "nl": "Schuine wanden en plafond glad gestuct",
+            "en": "Sloping walls and ceiling smoothly plastered"
+          },
+          "kind": "gallery",
+          "media": "image"
+        },
+        {
+          "id": "ce226950acb751ba",
+          "src": "/media/stuc-zolder-1.webp",
+          "width": 1500,
+          "height": 2000,
+          "alt": {
+            "nl": "Zolderkamer strak gestuct, klaar om te schilderen",
+            "en": "Attic room smoothly plastered, ready to paint"
+          },
+          "kind": "gallery",
+          "media": "image"
+        },
+        {
+          "id": "ee7fd38ddd4509ef",
+          "src": "/media/stuc-zolder-4.webp",
+          "width": 1500,
+          "height": 2000,
+          "alt": {
+            "nl": "Gestucte zolderkamer met dakkapel",
+            "en": "Plastered attic room with dormer"
+          },
+          "kind": "gallery",
+          "media": "image"
+        },
+        {
+          "id": "bc58254d498fabec",
+          "src": "/media/stuc-zolder-6.webp",
+          "width": 1500,
+          "height": 2000,
+          "alt": {
+            "nl": "Zolderverdieping tijdens de verbouwing",
+            "en": "Attic floor during the renovation"
+          },
+          "kind": "gallery",
+          "media": "image"
+        },
+        {
+          "id": "eb9d6f5bb0d7707d",
+          "src": "/media/stuc-zolder-3.webp",
+          "width": 1500,
+          "height": 2000,
+          "alt": {
+            "nl": "Stucwerk in uitvoering op zolder",
+            "en": "Plastering in progress in the attic"
+          },
+          "kind": "gallery",
+          "media": "image"
+        },
+        {
+          "id": "29f7ea9eb9c9ad4c",
+          "src": "/media/stuc-zolder-5.webp",
+          "width": 1500,
+          "height": 2000,
+          "alt": {
+            "nl": "Wanden net gestuct, aan het drogen",
+            "en": "Freshly plastered walls, drying"
+          },
+          "kind": "gallery",
+          "media": "image"
+        }
+      ],
+      "coverImageId": "1651871adb4cbd06",
+      "published": true,
+      "featured": true,
+      "order": -1,
+      "seoTitle": {
+        "nl": "",
+        "en": ""
+      },
+      "seoDescription": {
+        "nl": "",
+        "en": ""
+      },
+      "createdAt": "2026-09-28T15:30:45.382163Z",
+      "updatedAt": "2026-09-28T15:30:45.382163Z"
+    }
+  ]
+}

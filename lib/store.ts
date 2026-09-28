@@ -18,6 +18,29 @@ import { socialKeys } from "./types";
 export const STORAGE_DIR = path.resolve(/*turbopackIgnore: true*/ process.env.STORAGE_DIR || path.join(/*turbopackIgnore: true*/ process.cwd(), "storage"));
 export const UPLOAD_DIR = path.join(STORAGE_DIR, "uploads");
 const DB_FILE = path.join(STORAGE_DIR, "db.json");
+/** Initial content shipped with the code (copied into an empty storage folder on first start). */
+export const SEED_DIR = path.join(/*turbopackIgnore: true*/ process.cwd(), "seed");
+
+let seeding: Promise<boolean> | null = null;
+/** Copies seed/db.json + seed/uploads into STORAGE_DIR when it is still empty (e.g. a fresh Railway volume). */
+function ensureSeed() {
+  seeding ??= (async () => {
+    try {
+      await fs.access(path.join(SEED_DIR, "db.json"));
+    } catch {
+      return false;
+    }
+    await fs.mkdir(UPLOAD_DIR, { recursive: true });
+    const files = await fs.readdir(path.join(SEED_DIR, "uploads")).catch(() => [] as string[]);
+    for (const f of files) {
+      const target = path.join(UPLOAD_DIR, f);
+      await fs.access(target).catch(() => fs.copyFile(path.join(SEED_DIR, "uploads", f), target));
+    }
+    await fs.access(DB_FILE).catch(() => fs.copyFile(path.join(SEED_DIR, "db.json"), DB_FILE));
+    return true;
+  })();
+  return seeding;
+}
 
 const emptyL = () => ({ nl: "", en: "" });
 
@@ -102,6 +125,9 @@ export async function readDb(): Promise<Database> {
     return normalize(JSON.parse(text));
   } catch (err: unknown) {
     if ((err as NodeJS.ErrnoException).code === "ENOENT") {
+      if (await ensureSeed()) {
+        return normalize(JSON.parse(await fs.readFile(DB_FILE, "utf8")));
+      }
       const db = emptyDb();
       await writeFileAtomic(db);
       return db;

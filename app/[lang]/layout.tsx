@@ -22,6 +22,9 @@ export function generateStaticParams() {
   return locales.map((lang) => ({ lang }));
 }
 
+/** Pages are pre-rendered for speed and refreshed at least every minute (and instantly after saving in admin). */
+export const revalidate = 60;
+
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params;
   if (!isLocale(lang)) return {};

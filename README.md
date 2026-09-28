@@ -42,6 +42,21 @@ npm run dev        # http://localhost:3000
    phone number as on the website, and add its link in Admin → Settings. This is the #1 factor for local results
    ("badkamer renovatie Haarlem"). Ask happy customers for Google reviews.
 
+## Deploy on Railway
+
+1. New Project → **Deploy from GitHub repo** → choose this repository.
+2. Service → **Settings → Volumes → Add Volume**, mount path: `/data`.
+3. Service → **Variables**:
+   - `STORAGE_DIR=/data`
+   - `NEXT_PUBLIC_SITE_URL=https://www.oynurbouw.nl`
+   - `ADMIN_EMAIL=…`, `ADMIN_PASSWORD=…` (strong), `AUTH_SECRET=…` (32+ random characters)
+   - optional `GOOGLE_SITE_VERIFICATION=…`
+4. Railway runs `npm run build` and `npm start` automatically. On the first start the content from `seed/`
+   (projects, photos, videos, settings) is copied to the volume. After that, everything you change in the admin
+   panel is saved on the volume and survives redeploys.
+5. **Settings → Networking → Custom Domain**: add `www.oynurbouw.nl` (and `oynurbouw.nl`) and create the DNS
+   records Railway shows at your domain provider.
+
 ## Where is the content stored?
 
 Everything you enter in the admin panel lives in the `storage/` folder:
@@ -65,5 +80,3 @@ converted to optimized WebP). **Back up this folder regularly.** Copying it to a
 - Service pages (descriptions, FAQs): `lib/services.ts`
 - All other website texts (NL + EN): `lib/i18n.ts`
 - Colors and fonts: `app/globals.css`
-# oynurbouw.nl
-# oynurbouw.nl
